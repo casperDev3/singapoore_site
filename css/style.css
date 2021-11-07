@@ -380,6 +380,7 @@ header{
 	padding: 22px 76px;
 	margin-bottom: 150px;
 }
+
 .speakers__button button:hover{
 	background: linear-gradient(91.59deg, #f0f903 0.21%, #f9df03 100%);
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
@@ -389,4 +390,111 @@ header{
 	line-height: 1.2;
 	padding: 22px 76px;
 	margin-bottom: 150px;
-	
+}
+
+/*section GRADUATES*/
+
+.graduates__title{
+	font-weight: bold;
+	font-size: 52px;
+	line-height: 1.2;
+	color: #FFFFFF;
+	margin-bottom: 77px;
+}
+.graduates__ragt-blue{
+	width: 485px;
+	height: 574px;
+	background: #0D5C6D;
+}
+.graduates__slider-title{
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 1.2;
+	color: #FFFFFF;
+	padding-top: 38px;
+	padding-left: 32px;
+}
+.sliderRightArrow{
+	margin-left: 16px;
+	padding-right: 34px;
+	background: none;
+	border: none;
+}
+.sliderLeftArrow{
+	background: none;
+	border: none;
+}
+.grauates__bgDownText{
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 1.2;
+	color: #FFFFFF;
+	text-align: center;
+	border: 2px solid #FFFFFF;
+	min-width: 428px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 16px;
+	padding-bottom: 22px;
+	margin-bottom: 30px;
+}
+.graduates__ragt-neon{
+	width: 190px;
+	height: 396px;
+	background: #22FFFE;
+}
+.graduates {
+	padding-bottom: 170px;
+	position: relative;
+
+}
+.graduates__sliderElements-1{
+	min-width: 245px;
+	height: 316px;
+	background: #FFFFFF;
+	background-image: url('../img/sliderElement1.png');
+	background-repeat: no-repeat;
+	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+}
+.graduates__sliderElements-name1{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1.2;
+	color: #0D5C6D;
+	padding-top: 150px;
+	margin-left: 16px;
+	margin-bottom: 18px;
+}
+.graduates__sliderElements-descp1{
+	font-size: 12px;
+	line-height: 1.2;
+	margin-right: 26px;
+	margin-left: 14px;
+}
+.graduates__sliderElements-2{
+	min-width: 245px;
+	height: 316px;
+	background: #FFFFFF;
+	background-image: url('../img/sliderElement2.png');
+	background-repeat: no-repeat;
+	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+}
+.graduates__sliderElements-3{
+	min-width: 245px;
+	height: 316px;
+	background: #FFFFFF;
+	background-image: url('../img/sliderElement3.png');
+	background-repeat: no-repeat;
+	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+}
+
+.graduates__sliderElements{
+	position: absolute;
+	top: 250px;
+	left: 0px;
+}
+
+
